@@ -1,8 +1,5 @@
 name: MathConf's' Help
 description: This is the official doculentation of www.mathconf.org
-markdown: kramdown
+markdown: GFM
 url: https://mathconf.github.io/help/
 highlighter: rouge
-
-kramdown:
-  input: GFM

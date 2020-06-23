@@ -18,13 +18,13 @@ Here we present some elements of the syntax.
 
 ### Paragraphs and titles
 
-| Textile                                   | Result                                                                           |
-|:------------------------------------------|:---------------------------------------------------------------------------------|
-| `h1=. Title (centerd)`                    | {::nomarkdown}<h1 style="text-align:center">Title (centerd)</h1>{:/}             |
-| `h2=. Subtitle (centerd)`                 | {::nomarkdown}<h2 style="text-align:center">Subtitle (centerd)</h2>{:/}          |
-| `p=. Paragraph (centerd)`                 | {::nomarkdown}<p style="text-align:center">Paragraph (centerd)</p>{:/}           |
-| `p<>. Paragraph (justified)`              | {::nomarkdown}<p style="text-align:justify">Paragraph (justified)</p>{:/}        |
-| `p(blabla). Paragraphe of class "blabla"` | {::nomarkdown}<p class="blabla">Paragraphe of class &#8220;blabla&#8221;</p>{:/} |
+| Textile                                   | Result                                                         |
+|:------------------------------------------|:---------------------------------------------------------------|
+| `h1=. Title (centerd)`                    | <h1 style="text-align:center">Title (centerd)</h1>             |
+| `h2=. Subtitle (centerd)`                 | <h2 style="text-align:center">Subtitle (centerd)</h2>          |
+| `p=. Paragraph (centerd)`                 | <p style="text-align:center">Paragraph (centerd)</p>           |
+| `p<>. Paragraph (justified)`              | <p style="text-align:justify">Paragraph (justified)</p>        |
+| `p(blabla). Paragraphe of class "blabla"` | <p class="blabla">Paragraphe of class &#8220;blabla&#8221;</p> |
 
 ### Text, links, images
 
@@ -43,13 +43,13 @@ Here we present some elements of the syntax.
 
 | Textile                                                                    | Result                                                                                           |
 |:---------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| `* Item A`<br>`** Item A1`<br>`** Item A2`<br>`* Item B`<br>`* Item C`<br> | {::nomarkdown}<ul><li>Item A <ul><li>Item A1</li><li>Item A2</li></ul></li><li>Item B</li><li>Item C</li></ul>{:/} |
+| `* Item A`<br>`** Item A1`<br>`** Item A2`<br>`* Item B`<br>`* Item C`<br> | <ul><li>Item A <ul><li>Item A1</li><li>Item A2</li></ul></li><li>Item B</li><li>Item C</li></ul> |
 
 ## Numbered
 
 | Textile                                                                      | Result                                                                                           |
 |:-----------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
-| `# Item 1`<br>`## Item 1.1`<br>`## Item 1.2`<br>`# Item 2`<br>`# Item 3`<br> | {::nomarkdown}<ol><li>Item A <ol><li>Item A1</li><li>Item A2</li></ol></li><li>Item B</li><li>Item C</li></ol>{:/} |
+| `# Item 1`<br>`## Item 1.1`<br>`## Item 1.2`<br>`# Item 2`<br>`# Item 3`<br> | <ol><li>Item A <ol><li>Item A1</li><li>Item A2</li></ol></li><li>Item B</li><li>Item C</li></ol> |
 
 ## Comments
 

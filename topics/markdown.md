@@ -19,11 +19,11 @@ Here we present some elements of the syntax.
 
 ### titles
 
-| Markdown           | Result                                  |
-|:-------------------|:----------------------------------------|
-| `# Title`          | {::nomarkdown}<h1>Title</h1>{:/}        |
-| `## Subtitle`      | {::nomarkdown}<h2>Subtitle</h2>{:/}     |
-| `### Sub-subtitle` | {::nomarkdown}<h3>Sub-subtitle</h3>{:/} |
+| Markdown           | Result                |
+|:-------------------|:----------------------|
+| `# Title`          | <h1>Title</h1>        |
+| `## Subtitle`      | <h2>Subtitle</h2>     |
+| `### Sub-subtitle` | <h3>Sub-subtitle</h3> |
 
 ### Text, links, images
 
@@ -39,17 +39,17 @@ Here we present some elements of the syntax.
 
 ## unordered
 
-| Markdown                                                                                   | Result                                                                                                             |
-|:-------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
-| `- Item A`<br>&nbsp;&nbsp;`- Item A1`<br>&nbsp;`- Item A2`<br>`- Item B`<br>`- Item C`<br> | {::nomarkdown}<ul><li>Item A <ul><li>Item A1</li><li>Item A2</li></ul></li><li>Item B</li><li>Item C</li></ul>{:/} |
+| Markdown                                                                                   | Result                                                                                           |
+|:-------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|
+| `- Item A`<br>&nbsp;&nbsp;`- Item A1`<br>&nbsp;`- Item A2`<br>`- Item B`<br>`- Item C`<br> | <ul><li>Item A <ul><li>Item A1</li><li>Item A2</li></ul></li><li>Item B</li><li>Item C</li></ul> |
 
 You can use `+` or `*` in place of `-`.
 
 ## Numbered
 
-| Markdown                                                                                                             | Result                                                                                                                |
-|:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
-| `1. Item 1`<br>&nbsp;&nbsp;&nbsp;`1. Item 1.i`<br>&nbsp;&nbsp;&nbsp;`1. Item 1.ii`<br>`1. Item 2`<br>`1. Item 3`<br> | {::nomarkdown}<ol><li>Item 1 <ol><li>Item 1.i</li><li>Item 1.ii</li></ol></li><li>Item 2</li><li>Item 3</li></ol>{:/} |
+| Markdown                                                                                                             | Result                                                                                              |
+|:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| `1. Item 1`<br>&nbsp;&nbsp;&nbsp;`1. Item 1.i`<br>&nbsp;&nbsp;&nbsp;`1. Item 1.ii`<br>`1. Item 2`<br>`1. Item 3`<br> | <ol><li>Item 1 <ol><li>Item 1.i</li><li>Item 1.ii</li></ol></li><li>Item 2</li><li>Item 3</li></ol> |
 
 For the nested numbered list you should indent at least 3 spaces.
 
