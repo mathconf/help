@@ -154,3 +154,6 @@ You can also use all [jinja2](http://jinja.pocoo.org/docs/) filters. For example
 The full list of filter is [available here](http://wsgiarea.pocoo.org/jinja/docs/filters.html).
 
 There is an additional variable `{{editanswer}}` that allows you to obtain the url for editing the submited answer.
+
+---
+| [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/forms.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/forms.md) |

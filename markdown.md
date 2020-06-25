@@ -104,3 +104,6 @@ produce
   <li>Second element of list of class <code>myclass</code></li>
 </ul>
 ```
+
+---
+| [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/markdown.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/markdown.md) |

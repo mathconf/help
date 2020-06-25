@@ -43,4 +43,5 @@ If you want a more drastic intervention you can replace the default files `main.
 
 The file `regex.json` is a `json` file of replacement rules used to create "snippets". For more information you can visit the [dedicated page](https://mathconf.github.io/regex/).
 
-
+---
+| [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/files.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/files.md) |

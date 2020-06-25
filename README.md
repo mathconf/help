@@ -70,3 +70,5 @@ The files are *low level plumbing*. In general you don't need to touch this sect
 
 Some of the frequently asked questions are available on the [FAQ page](faq.md).
 
+---
+| [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/README.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/README.md) |

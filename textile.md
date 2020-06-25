@@ -110,3 +110,6 @@ It is preferable to use classes to style your elements, but if it is needed you 
 ```
 
 that produce <span style="color:red">Text in red</span> (`<span style="color:red">Text in red</span>`).
+
+---
+| [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/textile.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/textile.md) |
