@@ -34,6 +34,8 @@ Here we present some elements of the syntax.
 | `**bold**`                         | <b>bold</b>                                                            |
 | `_italic_`                         | <em>italic</em>                                                        |
 | `*_combined_*`                     | <strong><em>combined</em></strong>                                     |
+| `superscript: 1{^st^}, 2[^nd^]`    | superscript: 1<sup>st</sup>, 2<sup>nd</sup>                            |
+| `subscript: A{~1~}, A[~2~]`        | subscript: A<sub>1</sub>, A<sub>2</sub>                                |
 | `"INSMI":http://www.cnrs.fr/insmi` | <a href="http://www.cnrs.fr/insmi"><span class="caps">INSMI</span></a> |
 | `!https://imgur.com/qzNsLbB.jpg!`  | <img src="https://imgur.com/qzNsLbB.jpg" alt="" />                     |
 
