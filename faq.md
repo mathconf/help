@@ -6,7 +6,7 @@ The conference title is defined for all the languages in the corresponding sub-s
 
 ## How can I set two subtitles?
 
-You can type a HTML code in the subtitle field (in the "Parameters" section for the corresponding langauge). So you can type something like :
+You can type a HTML code in the subtitle field (in the "Parameters" section for the corresponding langauge). So you can type something like:
 ```html
 Conference in honnor of professor Tournesol<br><span class="subsubtitle">Lille, from 1<sup>st</sup> to 3<sup>th</sup> June 1944
 ```

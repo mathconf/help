@@ -12,7 +12,7 @@ Each site is composed of different kind of contents:
 
 ## Pages
 
-Every page has some parameters :
+Every page has some parameters:
 
 - **URL**: the pages with the same url (for example `home`) written in different languages (for example `fr` and `en`) are corresponding to each other.
 - **Publish**: if not checked the page is not visible on the conference site.

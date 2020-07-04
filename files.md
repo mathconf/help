@@ -11,7 +11,7 @@ To change the style of a page you can use the classes that are automatically add
 Thus for example to make red the `h1` titles of all the pages in French it is enough to put in a `.css` file the following code:
 ```css
 div#main.type-page.lang-fr h1{
-  color : red;
+  color: red;
 }
 ```
 
@@ -19,7 +19,7 @@ div#main.type-page.lang-fr h1{
 
 ### Insertion files
 
-Not only the `.css` and `.js` files are inserted in `main.html`. The `html` files `head.inc`, `body_prepend.inc` and `body_append.inc` allow to add code in the `<head>` and `<body>` sections (at the beginning and at the end) respectively, of the `main.html`, without touching it. For example, if you found a suitable font (say `Sonsie One`) for the title at [Google fonts](https://fonts.google.com/specimen/Sonsie+One), you can :
+Not only the `.css` and `.js` files are inserted in `main.html`. The `html` files `head.inc`, `body_prepend.inc` and `body_append.inc` allow to add code in the `<head>` and `<body>` sections (at the beginning and at the end) respectively, of the `main.html`, without touching it. For example, if you found a suitable font (say `Sonsie One`) for the title at [Google fonts](https://fonts.google.com/specimen/Sonsie+One), you can:
 
 - create a file `head.inc` and put inside:
 

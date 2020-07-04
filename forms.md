@@ -82,11 +82,11 @@
         - type: select
           lable: "Voulez-vous donner un exposée"
           name: exposee
-          options :
-          - value : 1
+          options:
+          - value: 1
             lable: Oui
-            selected : yes
-          - value : 0
+            selected: yes
+          - value: 0
             lable: Non
 
 - HTML result
@@ -125,7 +125,7 @@
 
         - type: submit
           lable: "S'enregistrer"
-          class : "btn btn-success"
+          class: "btn btn-success"
 
 - HTML result
 
@@ -139,7 +139,7 @@ You can add to any field the `class:` key like in the sumit button exmple.
 
 You can edit the on screen response and the email response. The message can be edited in [textile](textile.md) or in [markdown](markdown.md) and you can use the form results that are accessibla trough the `answer` variable.
 
-For example to display the firstname in bold you can use :
+For example to display the firstname in bold you can use:
 <!-- {% raw %} -->
 ```
 **{{ answer.firstname }}**
