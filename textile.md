@@ -57,7 +57,7 @@ Here we present some elements of the syntax.
 
 Every paragraph that starts with `###.` is removed from the final output.
 
-```textile
+```
 ###. An invisible comment !
 And the following line is also invisible because it is part of the same paragraph.
 
@@ -81,11 +81,9 @@ To be style some element using CSS it can be useful to add the following attribu
 CSS classes and IDs are enclosed in parentheses `()` just after phrase modifiers or block modifiers.
 For example:
 
-<!-- {% raw %} -->
-```textile
+```
 p(myclass#myid). This paragraph has both a `class` and an `id`.
 ```
-<!-- {% endraw %} -->
 produce
 ```html
 <p class="myclass" id="myid">This paragraph has both a `class` and an `id`.</p>
@@ -93,12 +91,10 @@ produce
 
 or
 
-<!-- {% raw %} -->
-```textile
+```
 *(myclass) First element of list of class `myclass`
 * Second element of list of class `myclass`
 ```
-<!-- {% endraw %} -->
 produce
 ```html
 <ul class="myclass">
@@ -111,7 +107,7 @@ produce
 
 It is preferable to use classes to style your elements, but if it is needed you can directly apply a style like this
 
-```textile
+```
 %{color:red}Text in red%
 ```
 
