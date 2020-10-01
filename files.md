@@ -23,17 +23,17 @@ Not only the `.css` and `.js` files are inserted in `main.html`. The `html` file
 
 - create a file `head.inc` and put inside:
 
-        ```html
-        <link href='http://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
-        ```
+    ```html
+    <link href='http://fonts.googleapis.com/css?family=Sonsie+One' rel='stylesheet' type='text/css'>
+    ```
 
 - create a file `custom.css` and put inside:
 
-        ```css
-        div.header .title {
-          font-family: 'Sonsie One', cursive;
-        }
-        ```
+    ```css
+    div.header .title {
+      font-family: 'Sonsie One', cursive;
+    }
+    ```
 
 ### Replacement files
 
