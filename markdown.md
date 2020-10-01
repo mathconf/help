@@ -57,13 +57,13 @@ For the nested numbered list you should indent at least 3 spaces.
 
 You can use the standard HTML comments that are included in the resulting code, but are not displayed.
 
-```markdown
+```
 <!-- Comment -->
 ```
 
 Or you can use this (strange) type of comments that has the advantage to be completely removed from the result.
 
-```markdown
+```
 [//]: <> (This is also a comment.)
 ```
 
@@ -82,7 +82,7 @@ By default Mathconf use the extension [attrs](https://github.com/arve0/markdown-
 
 You can add classes, identifiers and attributes to your markdown with `{.class #identifier attr=value attr2="spaced value"}` curly brackets. For example:
 
-```markdown
+```
 # Title {.centered #title}
 ```
 produce
@@ -92,7 +92,7 @@ produce
 
 or
 
-```markdown
+```
 - First element of list of class `myclass`
 - Second element of list of class `myclass`
 {.myclass}
