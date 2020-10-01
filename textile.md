@@ -81,9 +81,11 @@ To be style some element using CSS it can be useful to add the following attribu
 CSS classes and IDs are enclosed in parentheses `()` just after phrase modifiers or block modifiers.
 For example:
 
+<!-- {% raw %} -->
 ```textile
 p(myclass#myid). This paragraph has both a `class` and an `id`.
 ```
+<!-- {% endraw %} -->
 produce
 ```html
 <p class="myclass" id="myid">This paragraph has both a `class` and an `id`.</p>
@@ -91,10 +93,12 @@ produce
 
 or
 
+<!-- {% raw %} -->
 ```textile
 *(myclass) First element of list of class `myclass`
 * Second element of list of class `myclass`
 ```
+<!-- {% endraw %} -->
 produce
 ```html
 <ul class="myclass">
