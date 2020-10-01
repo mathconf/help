@@ -82,7 +82,7 @@ By default Mathconf use the extension [attrs](https://github.com/arve0/markdown-
 
 You can add classes, identifiers and attributes to your markdown with `{.class #identifier attr=value attr2="spaced value"}` curly brackets. For example:
 
-```textile
+```markdown
 # Title {.centered #title}
 ```
 produce
@@ -92,7 +92,7 @@ produce
 
 or
 
-```textile
+```markdown
 - First element of list of class `myclass`
 - Second element of list of class `myclass`
 {.myclass}
