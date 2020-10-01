@@ -10,7 +10,7 @@ You can experiment with the textile syntax using the [official playground](https
 
 ## Documentation
 
-The syntax is on the [CommonMark](https://commonmark.org/help/) version.
+The syntax is based on the [CommonMark](https://commonmark.org/help/) version.
 It is also compatible with the [GFM extension](https://guides.github.com/features/mastering-markdown/).
 
 ## Some examples
