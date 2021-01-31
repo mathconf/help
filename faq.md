@@ -12,5 +12,9 @@ Conference in honnor of professor Tournesol<br><span class="subsubtitle">Lille, 
 ```
 And then if you want to change the style of the `subsubtitle` class you can do it in some `.css` [file](files.md).
 
+## How can I change the editor setting?
+
+To display the list of settings you have to press <kbd>Ctrl</kbd>+<kbd>,</kbd> (or <kbd>Cmd</kbd>+<kbd>,</kbd> on Mac) inside the text area. Then you can change the theme, the keybindings and so on.
+
 ---
 | [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/faq.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/faq.md) |
