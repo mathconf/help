@@ -73,9 +73,10 @@
       default: 2012-7-8
       min: 2012-7-8
       max: 2012-7-28
-      help:>- Les deux premières semaines (9-21 juillet)
-      seront consacrées à des cours avancés,
-      la troisième (23-28 juillet) à un mini colloque.
+      help: >-
+        Les deux premières semaines (9-21 juillet)
+        seront consacrées à des cours avancés,
+        la troisième (23-28 juillet) à un mini colloque.
     ```
 
 - HTML result
@@ -109,8 +110,8 @@
     ```html
     <label class="labtitle " for="exposee">Voulez-vous donner un exposée</label>
     <select id="exposee" name="exposee">
-        <option value="1" selected="selected" "="">Oui</option>
-        <option value="0" "="">Non</option>
+        <option value="1" selected="selected">Oui</option>
+        <option value="0">Non</option>
     </select>
     ```
 
@@ -122,9 +123,10 @@
     - type: textarea
       lable: "Autres remarques"
       name: remarks
-      help:>- Si vous avez des besoins particuliers
-      (régime alimentaire, allergies, végétarien, ...)
-      dite-nous, s'il vous plaît.
+      help: >-
+        Si vous avez des besoins particuliers
+        (régime alimentaire, allergies, végétarien, ...)
+        dite-nous, s'il vous plaît.
     ```
 
 - HTML result
