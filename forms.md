@@ -18,6 +18,22 @@
     ```html
     <legend>Formulaire d'inscription</legend>
     ```
+### Text message
+
+- YAML code
+
+    ```yaml
+    - type: message
+      html: Formulaire pour la participation <b>en ligne</b> seulement.
+      class: alert alert-success
+    ```
+
+- HTML result
+
+    ```html
+    <div class="alert alert-success">Formulaire pour la participation <b>en ligne</b> seulement.</div>
+    ```
+
 
 ### Single line text field
 
