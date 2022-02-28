@@ -196,7 +196,7 @@ You can also use all [jinja2](http://jinja.pocoo.org/docs/) filters. For example
  {{ answer.familyname | upper }}
 ```
 <!-- {% endraw %} -->
-The full list of filters is [available here](http://wsgiarea.pocoo.org/jinja/docs/filters.html). And you can check your answer template with the [Jinja2 live parser](http://jinja.quantprogramming.com/).
+The full list of filters is [available here](https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters). And you can check your answer template with the [Jinja2 live parser](http://jinja.quantprogramming.com/).
 
 There is an additional variable <!-- {% raw %} -->`{{editanswer}}`<!-- {% endraw %} --> that allows you to obtain the url for editing the submited answer.
 
