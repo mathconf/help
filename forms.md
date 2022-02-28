@@ -175,6 +175,11 @@
 
 You can add to any field the `class:` key like in the sumit button exmple.
 
+### Multiline strings in YAML
+
+From time to time we need to write multiline strings in the `help` or in the `html` parts. You can check [yaml-multiline.info](https://yaml-multiline.info/) for more information on how to do this.
+
+
 ## The responses
 
 You can edit the on screen response and the email response. The message can be edited in [textile](textile.md) or in [markdown](markdown.md) and you can use the form results that are accessibla trough the `answer` variable.
@@ -191,7 +196,7 @@ You can also use all [jinja2](http://jinja.pocoo.org/docs/) filters. For example
  {{ answer.familyname | upper }}
 ```
 <!-- {% endraw %} -->
-The full list of filter is [available here](http://wsgiarea.pocoo.org/jinja/docs/filters.html). And you can check your answer template with the [Jinja2 live parser](http://jinja.quantprogramming.com/).
+The full list of filters is [available here](http://wsgiarea.pocoo.org/jinja/docs/filters.html). And you can check your answer template with the [Jinja2 live parser](http://jinja.quantprogramming.com/).
 
 There is an additional variable <!-- {% raw %} -->`{{editanswer}}`<!-- {% endraw %} --> that allows you to obtain the url for editing the submited answer.
 
