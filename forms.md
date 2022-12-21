@@ -10,7 +10,7 @@
 
     ```yaml
     - type: formname
-      lable: "Formulaire d'inscription"
+      label: "Formulaire d'inscription"
     ```
 
 - HTML result
@@ -41,7 +41,7 @@
 
     ```yaml
     - type: text
-      lable: "Prénom"
+      label: "Prénom"
       name: firstname
       required: yes
       public: yes
@@ -63,7 +63,7 @@
 
     ```yaml
     - type: email
-      lable: "Email"
+      label: "Email"
       name: email
       required: yes
       help: "Votre adresse éléctronique"
@@ -83,7 +83,7 @@
 
     ```yaml
     - type: date
-      lable: "Date d'arrivée"
+      label: "Date d'arrivée"
       name: arrival
       required: yes
       default: 2012-7-8
@@ -111,14 +111,14 @@
 
     ```yaml
     - type: select
-      lable: "Voulez-vous donner un exposée"
+      label: "Voulez-vous donner un exposée"
       name: exposee
       options:
       - value: 1
-        lable: Oui
+        label: Oui
         selected: yes
       - value: 0
-        lable: Non
+        label: Non
     ```
 
 - HTML result
@@ -137,7 +137,7 @@
 
     ```yaml
     - type: textarea
-      lable: "Autres remarques"
+      label: "Autres remarques"
       name: remarks
       help: >-
         Si vous avez des besoins particuliers
@@ -161,7 +161,7 @@
 
     ```yaml
     - type: submit
-      lable: "S'enregistrer"
+      label: "S'enregistrer"
       class: "btn btn-success"
     ```
 
