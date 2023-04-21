@@ -76,6 +76,14 @@ All the HTML tags are preserved so you can write directly in HTML if needed.
 | `1<sup>st</sup>, 2<sup>nd</sup>, ...`     | 1<sup>st</sup>, 2<sup>nd</sup>, &#8230; |
 | `<span style="color:red">Red text</span>` | <span style="color:red">Red text</span> |
 
+[Markdown-it](https://github.com/markdown-it/markdown-it) will parse inside "inline" HTML tags, but inside "block" elements the markdown code will be parsed iff the opening tag is followed by a blank line.
+
+| Markdown                                  | Result                                                   |
+|:------------------------------------------|:---------------------------------------------------------|
+| `<span>**bold** and _italic_</span>`      | <span><b>bold</b> and <em>italic</em></span>             |
+| `<div>**bold** and _italic_</div>`        | <div>&#42;&#42;bold&#42;&#42; and &#95;italic&#95;</div> |
+| <pre><code>&lt;div><br style="display: inline;"><br style="display: inline;">&#42;&#42;bold&#42;&#42; and &#95;italic&#95;<br style="display: inline;">&lt;/div></code></pre> | <div><b>bold</b> and <em>italic</em></div> |
+
 ## Classes and ids
 
 By default Mathconf use the extension [attrs](https://github.com/arve0/markdown-it-attrs) to allow classes and other attributes to be added.
@@ -104,6 +112,24 @@ produce
   <li>Second element of list of class <code>myclass</code></li>
 </ul>
 ```
+
+## Escaping the markdown
+
+In some situations it may be useful to avoid parsing a special character or a whole section of code.
+
+### Character escape
+
+We can escape some special characters with `\`, i.e. `\*\*not bold\*\*` will be rendered as `**not bold**`.
+
+The same result can be achieved by replacing a character with its html encoding, ie `&#42;` will be rendered as `*` and not treated as a special asterix character.
+
+### Paragraph escape
+
+To prevent an entire paragraph from being parsed, we can enclose it in `<p>...</p>` (without a blank line after the `<p>`) as explained in the HTML section.
+
+## MathJax
+
+In some situations, MathJax may conflict with Markdown-it. For example, in `$x_i$` the underscore `_` may be interpreted by Markdown-it as the start of italics. In this case we need to escape the whole paragraph or just the underscore.
 
 ---
 | [<small>👁</small>view source](https://github.com/mathconf/help/blob/master/markdown.md) | [<small>✎</small>edit this page](https://github.com/mathconf/help/edit/master/markdown.md) |
